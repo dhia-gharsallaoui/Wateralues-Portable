@@ -34,6 +34,7 @@ Bellman(
   counter,
   inaccessible_states = 1,
   stop_rate = 5,
+  debugger_feas = F,
   ...
 )
 </pre>
@@ -121,6 +122,10 @@ For example if equal to 0.9 we delete the state if this states is inaccessible b
 <p>the percent from which the calculation stop. for example
 <code>stop_rate=5</code> means the calculation stop if there is a week with less then
 5% accessibles states.</p>
+</td></tr>
+<tr valign="top"><td><code>debugger_feas</code></td>
+<td>
+<p>open debug mode in case there is an error of no accessible states</p>
 </td></tr>
 <tr valign="top"><td><code>...</code></td>
 <td>

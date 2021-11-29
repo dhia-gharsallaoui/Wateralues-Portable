@@ -88,6 +88,18 @@ mice.impute.cart        Imputation by classification and regression
                         trees
 mice.impute.jomoImpute
                         Multivariate multilevel imputation using 'jomo'
+mice.impute.lasso.logreg
+                        Imputation by direct use of lasso logistic
+                        regression
+mice.impute.lasso.norm
+                        Imputation by direct use of lasso linear
+                        regression
+mice.impute.lasso.select.logreg
+                        Imputation by indirect use of lasso logistic
+                        regression
+mice.impute.lasso.select.norm
+                        Imputation by indirect use of lasso linear
+                        regression
 mice.impute.lda         Imputation by linear discriminant analysis
 mice.impute.logreg      Imputation by logistic regression
 mice.impute.logreg.boot
@@ -143,7 +155,7 @@ norm.draw               Draws values of beta and sigma by Bayesian
 parlmice                Wrapper function that runs MICE in parallel
 pattern                 Datasets with various missing data patterns
 plot.mids               Plot the trace lines of the MICE algorithm
-pool                    Combine estimates by Rubin's rules
+pool                    Combine estimates by pooling rules
 pool.compare            Compare two nested models fitted to imputed
                         data
 pool.r.squared          Pools R^2 of m models fitted to

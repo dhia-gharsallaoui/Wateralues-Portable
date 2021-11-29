@@ -20,7 +20,7 @@ If you have Git installed run in CMD.
 ```
 git clone https://github.com/dhia-gharsallaoui/Wateralues-Portable.git
 ```
-Or download in Zip form directly.
+Or download in Zip format directly.
 
 # Run 
 

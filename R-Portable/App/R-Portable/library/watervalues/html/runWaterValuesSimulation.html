@@ -36,6 +36,7 @@ runWaterValuesSimulation(
   otp_dest = NULL,
   file_name = NULL,
   pumping = F,
+  efficiency = NULL,
   launch_simulations = T,
   reset_hydro = T,
   ...
@@ -121,6 +122,10 @@ will be created from maximum pumping power to the hydro storage maximum and of l
 <td>
 <p>Boolean. True to take into account the pumping.</p>
 </td></tr>
+<tr valign="top"><td><code>efficiency</code></td>
+<td>
+<p>in [0,1]. efficient ratio of pumping.</p>
+</td></tr>
 <tr valign="top"><td><code>launch_simulations</code></td>
 <td>
 <p>Boolean. True to to run the simulations.</p>
@@ -141,5 +146,5 @@ will be created from maximum pumping power to the hydro storage maximum and of l
 <p>This function have side effects on the Antares study used, a fictive area is created and a new district as well.
 </p>
 
-<hr /><div style="text-align: center;">[Package <em>watervalues</em> version 0.2.0 <a href="00Index.html">Index</a>]</div>
+<hr /><div style="text-align: center;">[Package <em>watervalues</em> version 0.3.0 <a href="00Index.html">Index</a>]</div>
 </div></body></html>

@@ -1,7 +1,7 @@
 Type: Package
 Package: watervalues
 Title: Generating water values for Antares
-Version: 0.2.0
+Version: 0.3.0
 Author: Dhia Gharsallaoui
 Maintainer: The package maintainer <safedhia@gmail.com>
 Description: This package aims at generating water values for Antares.
@@ -27,11 +27,11 @@ RemoteHost: api.github.com
 RemoteRepo: watervalues
 RemoteUsername: dhia-gharsallaoui
 RemoteRef: HEAD
-RemoteSha: b4e28f7d6668b7a1a49b0991b3977bf3a9730d33
+RemoteSha: 6e8e32d03b889dd4e474cf48152aa1ef04505a94
 GithubRepo: watervalues
 GithubUsername: dhia-gharsallaoui
 GithubRef: HEAD
-GithubSHA1: b4e28f7d6668b7a1a49b0991b3977bf3a9730d33
+GithubSHA1: 6e8e32d03b889dd4e474cf48152aa1ef04505a94
 NeedsCompilation: no
-Packaged: 2021-12-01 14:39:27 UTC; gharsallaouidhi
-Built: R 4.1.1; ; 2021-12-01 14:39:34 UTC; windows
+Packaged: 2021-12-02 14:29:28 UTC; gharsallaouidhi
+Built: R 4.1.1; ; 2021-12-02 14:29:35 UTC; windows

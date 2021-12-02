@@ -19,13 +19,15 @@
 <pre>
 setupWaterValuesSimulation(
   area,
-  fictive_area = paste0("watervalue_", area),
+  fictive_area_name = paste0("watervalue_", area),
   thermal_cluster = "WaterValueCluster",
   overwrite = FALSE,
   remove_areas = NULL,
   opts = antaresRead::simOptions(),
   reset_hydro = T,
   link_from = NULL,
+  pumping = F,
+  max_load = 1e+08,
   ...
 )
 </pre>
@@ -38,7 +40,7 @@ setupWaterValuesSimulation(
 <td>
 <p>The area concerned by the simulation.</p>
 </td></tr>
-<tr valign="top"><td><code>fictive_area</code></td>
+<tr valign="top"><td><code>fictive_area_name</code></td>
 <td>
 <p>Name of the fictive area to create.</p>
 </td></tr>
@@ -68,6 +70,14 @@ setupWaterValuesSimulation(
 <p>area that will be linked to the created fictive area. If it's
 <code>NULL</code> it will takes the area concerned by the simulation.</p>
 </td></tr>
+<tr valign="top"><td><code>pumping</code></td>
+<td>
+<p>Boolean. True to take into account the pumping.</p>
+</td></tr>
+<tr valign="top"><td><code>max_load</code></td>
+<td>
+<p>the maximum load to put it in the fictive areas.</p>
+</td></tr>
 <tr valign="top"><td><code>...</code></td>
 <td>
 <p>further arguments passed to or from other methods.</p>
@@ -80,5 +90,5 @@ setupWaterValuesSimulation(
 <p>The result of antaresRead::simOptions
 </p>
 
-<hr /><div style="text-align: center;">[Package <em>watervalues</em> version 0.2.0 <a href="00Index.html">Index</a>]</div>
+<hr /><div style="text-align: center;">[Package <em>watervalues</em> version 0.3.0 <a href="00Index.html">Index</a>]</div>
 </div></body></html>
